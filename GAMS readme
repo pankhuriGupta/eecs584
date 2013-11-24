@@ -1,0 +1,10 @@
+export PATH=$PATH:/home/ec2-user/gams/gams24.1_linux_x64_64_sfx
+cd /home/ec2-user/gams/models
+
+Run models:
+  gams blink.gms
+
+This will make another file called :  blink.lst
+This file will have the results. In case there are some errors in the execution, the .lst file  will show the errors starting with "****"
+The explanation of the error codes will also be present at the end of the same file.
+
