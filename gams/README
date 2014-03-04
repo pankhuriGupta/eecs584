@@ -1,0 +1,22 @@
+1. Install GAMS
+	cd /home/ec2-user/gams/gams24.1_linux_x64_64_sfx
+	./gamsinst
+
+2. Set path
+	export PATH=$PATH:/home/ec2-user/gams/gams24.1_linux_x64_64_sfx
+
+3. run models:
+	gams blink.gms
+
+	output file: 	blink.lst
+
+    This file will have the results. In case there are some errors in the execution, the .lst file  will show the errors starting with "****"
+    The explanation of the error codes will also be present at the end of the same file.
+
+
+    cd /home/ec2-user/gams/models
+
+    Run models: 
+      gams blink.gms
+
+

@@ -1,0 +1,248 @@
+GAMS 24.1.3  r41464 Released Jul 26, 2013 LEX-LEG x86_64/Linux                                                                                                                                                                         11/25/13 21:32:31 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+   2   
+   3  Scalar numQueries       number of queries /3/;
+   4  Scalar numQcs           number of qcs we have   /5/;
+   5  Scalar storageCapacity  total storage capacity with us /100/;
+   6   
+   7  Sets
+   8          Queries All the Queries /1*3/
+   9          Qcs All the qcs we already have /1*5/;
+  10   
+  11  Parameters
+  12          sparsityDelta(Queries)  how sparse the data is
+  13          / 1 20
+  14            2 40
+  15            3 50 /
+  16   
+  17          probQ(Queries)  what is the probability of each query
+  18          / 1 0.8
+  19            2 0.05
+  20            3 0.15 /
+  21   
+  22          stratifiedSampleSize(Qcs)  what is the size of each sample
+  23          / 1 60
+  24            2 30
+  25            3 40
+  26            4 13
+  27            5 32 /
+  28   
+  29          DqcsQueries(Queries)  size of qcs of the queries
+  30          / 1 6
+  31            2 3
+  32            3 5 /
+  33   
+  34          DqcsQcs(Qcs)   size of qcs in all the already formed qcs
+  35          / 1 4
+  36            2 2
+  37            3 1
+  38            4 3
+  39            5 1 /;
+  40   
+  41          Table domainQueries(Queries,Qcs)  whether the qcs of the queries intersect with already present qcs
+  42                  1  2  3  4  5
+  43          1       1  0  0  1  0
+  44          2       0  0  0  1  1
+  45          3       0  1  1  1  0  ;
+  46   
+  47  Parameter fraction(Queries, Qcs)  fraction of coverage;
+  48          fraction(Queries, Qcs) = domainQueries(Queries,Qcs) * min(1, DqcsQcs(Qcs)/DqcsQueries(Queries));
+  49   
+  50  Variables
+  51          obj  this is the objective function which we are optimizing
+  52          z(Qcs) binary variable that defines should we pick a sample or not
+  53          y(Queries) This gives the coverage aspect;
+  54   
+GAMS 24.1.3  r41464 Released Jul 26, 2013 LEX-LEG x86_64/Linux                                                                                                                                                                         11/25/13 21:32:31 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+  55          Binary Variable z;
+  56          Positive Variable y(Queries);
+  57          y.up(Queries) = 1.0;
+  58   
+  59  Equations
+  60          objective       define the objective function
+  61          storage         defining constraints on the storage
+  62          coverage        defining constraints on the coverage;
+  63   
+  64   
+  65          objective ..    obj =e= sum((Queries),probQ(Queries)*y(Queries)*sparsityDelta(Queries));
+  66          storage ..      sum((Qcs), stratifiedSampleSize(Qcs)*z(Qcs)) =l= storageCapacity;
+  67          coverage(Queries) ..    smax((Qcs), fraction(Queries,Qcs)*z(Qcs)) =g= y(Queries);
+  68   
+  69  Model blinkdb /all/;
+  70   
+  71  Solve blinkdb using MINLP maximizing obj ;
+  72   
+  73  Display blinkdb.modelstat, blinkdb.solvestat, z.l, z.m, y.l , y.m ;
+  74  option fraction :5:1:1; display fraction;
+
+
+COMPILATION TIME     =        0.002 SECONDS      3 MB  24.1.3 r41464 LEX-LEG
+GAMS 24.1.3  r41464 Released Jul 26, 2013 LEX-LEG x86_64/Linux                                                                                                                                                                         11/25/13 21:32:31 Page 3
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Equation Listing    SOLVE blinkdb Using MINLP From line 71
+
+
+---- objective  =E=  define the objective function
+
+objective..  obj - 16*y(1) - 2*y(2) - 7.5*y(3) =E= 0 ; (LHS = 0)
+     
+
+---- storage  =L=  defining constraints on the storage
+
+storage..  60*z(1) + 30*z(2) + 40*z(3) + 13*z(4) + 32*z(5) =L= 100 ; (LHS = 0)
+     
+
+---- coverage  =G=  defining constraints on the coverage
+
+coverage(1)..  (0)*z(1) + (0)*z(4) - y(1) =G= 0 ; (LHS = 0)
+     
+coverage(2)..  (0)*z(4) + (0)*z(5) - y(2) =G= 0 ; (LHS = 0)
+     
+coverage(3)..  (0)*z(2) + (0)*z(3) + (0)*z(4) - y(3) =G= 0 ; (LHS = 0)
+     
+GAMS 24.1.3  r41464 Released Jul 26, 2013 LEX-LEG x86_64/Linux                                                                                                                                                                         11/25/13 21:32:31 Page 4
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Column Listing      SOLVE blinkdb Using MINLP From line 71
+
+
+---- obj  this is the objective function which we are optimizing
+
+obj
+                (.LO, .L, .UP, .M = -INF, 0, +INF, 0)
+        1       objective
+
+
+---- z  binary variable that defines should we pick a sample or not
+
+z(1)
+                (.LO, .L, .UP, .M = 0, 0, 1, 0)
+       60       storage
+       (0)      coverage(1)
+
+z(2)
+                (.LO, .L, .UP, .M = 0, 0, 1, 0)
+       30       storage
+       (0)      coverage(3)
+
+z(3)
+                (.LO, .L, .UP, .M = 0, 0, 1, 0)
+       40       storage
+       (0)      coverage(3)
+
+REMAINING 2 ENTRIES SKIPPED
+
+---- y  This gives the coverage aspect
+
+y(1)
+                (.LO, .L, .UP, .M = 0, 0, 1, 0)
+      -16       objective
+       -1       coverage(1)
+
+y(2)
+                (.LO, .L, .UP, .M = 0, 0, 1, 0)
+       -2       objective
+       -1       coverage(2)
+
+y(3)
+                (.LO, .L, .UP, .M = 0, 0, 1, 0)
+       -7.5     objective
+       -1       coverage(3)
+
+GAMS 24.1.3  r41464 Released Jul 26, 2013 LEX-LEG x86_64/Linux                                                                                                                                                                         11/25/13 21:32:31 Page 5
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE blinkdb Using MINLP From line 71
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           3     SINGLE EQUATIONS            5
+BLOCKS OF VARIABLES           3     SINGLE VARIABLES            9
+NON ZERO ELEMENTS            19     NON LINEAR N-Z              7
+DERIVATIVE POOL              10     CONSTANT POOL              22
+CODE LENGTH                  38     DISCRETE VARIABLES          5
+
+
+GENERATION TIME      =        0.002 SECONDS      4 MB  24.1.3 r41464 LEX-LEG
+
+
+EXECUTION TIME       =        0.003 SECONDS      4 MB  24.1.3 r41464 LEX-LEG
+GAMS 24.1.3  r41464 Released Jul 26, 2013 LEX-LEG x86_64/Linux                                                                                                                                                                         11/25/13 21:32:31 Page 6
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE blinkdb Using MINLP From line 71
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   blinkdb             OBJECTIVE  obj
+     TYPE    MINLP               DIRECTION  MAXIMIZE
+     SOLVER  COUENNE             FROM LINE  71
+
+**** SOLVER STATUS     6 Capability Problems       
+**** MODEL STATUS      14 No Solution Returned     
+**** OBJECTIVE VALUE               NA
+
+ RESOURCE USAGE, LIMIT         NA          1000.000
+ ITERATION COUNT, LIMIT        NA    2000000000
+ EVALUATION ERRORS             NA             0
+
+COIN-OR Couenne  24.1.3 r41464 Released Jul 26, 2013 LEG x86_64/Linux         
+Gams function code 8 not supported.
+Error in setting up problem for Couenne.
+
+No solution returned
+GAMS 24.1.3  r41464 Released Jul 26, 2013 LEX-LEG x86_64/Linux                                                                                                                                                                         11/25/13 21:32:31 Page 7
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+E x e c u t i o n
+
+
+----     73 MODEL blinkdb.ModelStat        =       14.000  
+            MODEL blinkdb.SolveStat        =        6.000  
+
+----     73 VARIABLE z.L  binary variable that defines should we pick a sample or not
+
+                      ( ALL       0.000 )
+
+
+----     73 VARIABLE z.M  binary variable that defines should we pick a sample or not
+
+                      ( ALL       0.000 )
+
+
+----     73 VARIABLE y.L  This gives the coverage aspect
+
+                      ( ALL       0.000 )
+
+
+----     73 VARIABLE y.M  This gives the coverage aspect
+
+                      ( ALL       0.000 )
+
+
+----     74 PARAMETER fraction  fraction of coverage
+
+            1           2           3           4           5
+
+1     0.66667                             0.50000
+2                                         1.00000     0.33333
+3                 0.40000     0.20000     0.60000
+
+
+
+EXECUTION TIME       =        0.000 SECONDS      3 MB  24.1.3 r41464 LEX-LEG
+
+
+USER: GAMS Development Corporation, Washington, DC   G871201/0000CA-ANY
+      Free Demo,  202-342-0180,  sales@gams.com,  www.gams.com   DC0000
+
+
+**** FILE SUMMARY
+
+Input      /home/ec2-user/gams/models/test.gms
+Output     /home/ec2-user/gams/models/test.lst
