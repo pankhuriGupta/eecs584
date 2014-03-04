@@ -1,0 +1,5 @@
+contact_number gender
+number_aunts zipcode number_children
+contact_number country
+id number_cousins
+city gpa number_aunts

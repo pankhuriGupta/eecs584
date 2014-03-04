@@ -1,0 +1,5 @@
+number_uncles number_siblings number_cousins
+favorite_number number_siblings gpa
+number_children weight height
+number_siblings number_cousins
+gender number_aunts

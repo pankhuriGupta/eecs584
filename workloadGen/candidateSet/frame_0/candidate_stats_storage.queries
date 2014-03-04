@@ -1,0 +1,8 @@
+SELECT COUNT(*) FROM students_sample_1;
+SELECT COUNT(*) FROM students_sample_2;
+SELECT COUNT(*) FROM students_sample_3;
+SELECT COUNT(*) FROM students_sample_4;
+SELECT COUNT(*) FROM students_sample_5;
+SELECT COUNT(*) FROM students_sample_6;
+SELECT COUNT(*) FROM students_sample_7;
+quit;

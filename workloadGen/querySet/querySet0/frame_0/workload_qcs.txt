@@ -1,0 +1,5 @@
+contact_number country
+contact_number gender
+favorite_number id
+gender major
+state gpa

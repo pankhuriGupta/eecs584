@@ -1,0 +1,7 @@
+SELECT COUNT(*) FROM  ( SELECT COUNT(*) groups FROM students GROUP BY contact_number,country) temp WHERE temp.groups <= 10000;
+SELECT COUNT(*) FROM  ( SELECT COUNT(*) groups FROM students GROUP BY contact_number,gender) temp WHERE temp.groups <= 10000;
+SELECT COUNT(*) FROM  ( SELECT COUNT(*) groups FROM students GROUP BY favorite_number,id) temp WHERE temp.groups <= 10000;
+SELECT COUNT(*) FROM  ( SELECT COUNT(*) groups FROM students GROUP BY gender,major) temp WHERE temp.groups <= 10000;
+SELECT COUNT(*) FROM  ( SELECT COUNT(*) groups FROM students GROUP BY state,gpa) temp WHERE temp.groups <= 10000;
+
+quit;

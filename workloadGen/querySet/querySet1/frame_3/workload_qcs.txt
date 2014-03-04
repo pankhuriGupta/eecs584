@@ -1,0 +1,5 @@
+number_siblings number_cousins
+number_children weight height
+number_uncles number_siblings number_cousins
+gpa country weight
+number_children number_uncles

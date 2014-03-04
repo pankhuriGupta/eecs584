@@ -1,0 +1,26 @@
+ SELECT number_uncles, min(country) FROM students GROUP BY number_uncles LIMIT 10;
+ SELECT number_uncles, min(country) FROM students GROUP BY number_uncles LIMIT 10;
+ SELECT number_uncles, min(country) FROM students GROUP BY number_uncles LIMIT 10;
+ SELECT number_uncles, min(country) FROM students GROUP BY number_uncles LIMIT 10;
+ SELECT number_uncles, min(country) FROM students GROUP BY number_uncles LIMIT 10;
+ SELECT number_uncles, min(country) FROM students GROUP BY number_uncles LIMIT 10;
+ SELECT min(weight), city FROM students WHERE number_cousins <= 3.16 GROUP BY city LIMIT 10;
+ SELECT min(weight), city FROM students WHERE number_cousins <= 4.61 GROUP BY city LIMIT 10;
+ SELECT min(gender), contact_number FROM students GROUP BY contact_number LIMIT 10;
+ SELECT min(gender), contact_number FROM students GROUP BY contact_number LIMIT 10;
+ SELECT min(gender), contact_number FROM students GROUP BY contact_number LIMIT 10;
+ SELECT min(gender), contact_number FROM students GROUP BY contact_number LIMIT 10;
+ SELECT min(gender), contact_number FROM students GROUP BY contact_number LIMIT 10;
+ SELECT min(gender), contact_number FROM students GROUP BY contact_number LIMIT 10;
+ SELECT fname, min(major) FROM students WHERE gpa <= 1.53 GROUP BY fname LIMIT 10;
+ SELECT fname, min(major) FROM students WHERE gpa <= 2.24 GROUP BY fname LIMIT 10;
+ SELECT fname, min(major) FROM students WHERE gpa <= 2.31 GROUP BY fname LIMIT 10;
+ SELECT fname, min(major) FROM students WHERE gpa <= 3.52 GROUP BY fname LIMIT 10;
+ SELECT fname, min(major) FROM students WHERE gpa <= 3.55 GROUP BY fname LIMIT 10;
+ SELECT min(number_siblings), major FROM students WHERE weight <= 109.36 GROUP BY major LIMIT 10;
+ SELECT min(number_siblings), major FROM students WHERE weight <= 179.14 GROUP BY major LIMIT 10;
+ SELECT min(number_siblings), major FROM students WHERE weight <= 192.32 GROUP BY major LIMIT 10;
+ SELECT min(number_siblings), major FROM students WHERE weight <= 97.08 GROUP BY major LIMIT 10;
+ SELECT min(number_siblings), major FROM students WHERE weight <= 88.28 GROUP BY major LIMIT 10;
+
+quit;

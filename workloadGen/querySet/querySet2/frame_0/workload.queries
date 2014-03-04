@@ -1,0 +1,24 @@
+ SELECT min(city), major FROM students GROUP BY major LIMIT 10;
+ SELECT min(height), number_aunts FROM students WHERE number_uncles <= 6.39 GROUP BY number_aunts LIMIT 10;
+ SELECT min(height), number_aunts FROM students WHERE number_uncles <= 3.19 GROUP BY number_aunts LIMIT 10;
+ SELECT min(height), number_aunts FROM students WHERE number_uncles <= 7.67 GROUP BY number_aunts LIMIT 10;
+ SELECT min(height), number_aunts FROM students WHERE number_uncles <= 3.74 GROUP BY number_aunts LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT gpa, height, min(fname) FROM students WHERE number_children <= 1.39 GROUP BY height, gpa LIMIT 10;
+ SELECT gpa, height, min(fname) FROM students WHERE number_children <= 6.23 GROUP BY height, gpa LIMIT 10;
+ SELECT gpa, height, min(fname) FROM students WHERE number_children <= 4.95 GROUP BY height, gpa LIMIT 10;
+ SELECT gpa, height, min(fname) FROM students WHERE number_children <= 8.36 GROUP BY height, gpa LIMIT 10;
+ SELECT gpa, height, min(fname) FROM students WHERE number_children <= 0.6 GROUP BY height, gpa LIMIT 10;
+ SELECT min(height), country, state FROM students WHERE number_children <= 4.39 GROUP BY country, state LIMIT 10;
+
+quit;

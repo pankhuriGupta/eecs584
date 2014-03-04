@@ -1,0 +1,5 @@
+number_uncles state
+number_cousins city
+contact_number fname
+fname gpa
+major weight

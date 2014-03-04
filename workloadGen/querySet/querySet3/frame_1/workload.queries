@@ -1,0 +1,27 @@
+ SELECT min(number_cousins), number_children, major FROM students GROUP BY major, number_children LIMIT 10;
+ SELECT min(number_cousins), number_children, major FROM students GROUP BY major, number_children LIMIT 10;
+ SELECT min(number_cousins), number_children, major FROM students GROUP BY major, number_children LIMIT 10;
+ SELECT min(number_cousins), number_children, major FROM students GROUP BY major, number_children LIMIT 10;
+ SELECT min(number_cousins), number_children, major FROM students GROUP BY major, number_children LIMIT 10;
+ SELECT min(number_cousins), number_children, major FROM students GROUP BY major, number_children LIMIT 10;
+ SELECT contact_number, number_children, min(country) FROM students GROUP BY contact_number, number_children LIMIT 10;
+ SELECT contact_number, number_children, min(country) FROM students GROUP BY contact_number, number_children LIMIT 10;
+ SELECT contact_number, number_children, min(country) FROM students GROUP BY contact_number, number_children LIMIT 10;
+ SELECT contact_number, number_children, min(country) FROM students GROUP BY contact_number, number_children LIMIT 10;
+ SELECT contact_number, number_children, min(country) FROM students GROUP BY contact_number, number_children LIMIT 10;
+ SELECT contact_number, number_children, min(country) FROM students GROUP BY contact_number, number_children LIMIT 10;
+ SELECT state, min(number_aunts) FROM students WHERE favorite_number <= 47.33 GROUP BY state LIMIT 10;
+ SELECT state, min(number_aunts) FROM students WHERE favorite_number <= 69.16 GROUP BY state LIMIT 10;
+ SELECT state, min(number_aunts) FROM students WHERE favorite_number <= 12.83 GROUP BY state LIMIT 10;
+ SELECT state, min(number_aunts) FROM students WHERE favorite_number <= 74.48 GROUP BY state LIMIT 10;
+ SELECT state, min(number_aunts) FROM students WHERE favorite_number <= 22.44 GROUP BY state LIMIT 10;
+ SELECT gpa, state, min(number_children) FROM students WHERE number_uncles <= 7.17 GROUP BY gpa, state LIMIT 10;
+ SELECT gpa, state, min(number_children) FROM students WHERE number_uncles <= 2.76 GROUP BY gpa, state LIMIT 10;
+ SELECT min(contact_number), fname FROM students WHERE number_cousins <= 15.14 GROUP BY fname LIMIT 10;
+ SELECT min(contact_number), fname FROM students WHERE number_cousins <= 10.77 GROUP BY fname LIMIT 10;
+ SELECT min(contact_number), fname FROM students WHERE number_cousins <= 10.79 GROUP BY fname LIMIT 10;
+ SELECT min(contact_number), fname FROM students WHERE number_cousins <= 2.68 GROUP BY fname LIMIT 10;
+ SELECT min(contact_number), fname FROM students WHERE number_cousins <= 14.22 GROUP BY fname LIMIT 10;
+ SELECT min(contact_number), fname FROM students WHERE number_cousins <= 7.93 GROUP BY fname LIMIT 10;
+
+quit;

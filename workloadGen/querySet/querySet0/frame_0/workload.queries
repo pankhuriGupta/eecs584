@@ -1,0 +1,25 @@
+ SELECT min(gpa), country FROM students GROUP BY country LIMIT 10;
+ SELECT min(gpa), country FROM students GROUP BY country LIMIT 10;
+ SELECT min(gpa), country FROM students GROUP BY country LIMIT 10;
+ SELECT min(gpa), country FROM students GROUP BY country LIMIT 10;
+ SELECT min(gpa), country FROM students GROUP BY country LIMIT 10;
+ SELECT min(gpa), country FROM students GROUP BY country LIMIT 10;
+ SELECT contact_number, min(gpa) FROM students GROUP BY contact_number LIMIT 10;
+ SELECT contact_number, min(gpa) FROM students GROUP BY contact_number LIMIT 10;
+ SELECT contact_number, min(gpa) FROM students GROUP BY contact_number LIMIT 10;
+ SELECT contact_number, min(gpa) FROM students GROUP BY contact_number LIMIT 10;
+ SELECT contact_number, min(gpa) FROM students GROUP BY contact_number LIMIT 10;
+ SELECT contact_number, min(gpa) FROM students GROUP BY contact_number LIMIT 10;
+ SELECT min(number_uncles), id FROM students WHERE favorite_number <= 59.16 GROUP BY id LIMIT 10;
+ SELECT min(number_uncles), id FROM students WHERE favorite_number <= 91.16 GROUP BY id LIMIT 10;
+ SELECT gender, major, min(number_children) FROM students GROUP BY gender, major LIMIT 10;
+ SELECT gender, major, min(number_children) FROM students GROUP BY gender, major LIMIT 10;
+ SELECT gender, major, min(number_children) FROM students GROUP BY gender, major LIMIT 10;
+ SELECT gender, major, min(number_children) FROM students GROUP BY gender, major LIMIT 10;
+ SELECT gender, major, min(number_children) FROM students GROUP BY gender, major LIMIT 10;
+ SELECT gender, major, min(number_children) FROM students GROUP BY gender, major LIMIT 10;
+ SELECT min(height), state FROM students WHERE gpa <= 3.32 GROUP BY state LIMIT 10;
+ SELECT min(height), state FROM students WHERE gpa <= 3.01 GROUP BY state LIMIT 10;
+ SELECT min(height), state FROM students WHERE gpa <= 3.81 GROUP BY state LIMIT 10;
+
+quit;

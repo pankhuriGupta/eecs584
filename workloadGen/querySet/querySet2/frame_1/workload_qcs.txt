@@ -1,0 +1,5 @@
+major city
+gpa height number_children
+zipcode number_cousins
+favorite_number city number_aunts
+city number_children

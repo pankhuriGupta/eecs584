@@ -1,0 +1,24 @@
+ SELECT favorite_number, number_siblings, min(gpa) FROM students WHERE gpa <= 2.35 GROUP BY number_siblings, favorite_number LIMIT 10;
+ SELECT favorite_number, number_siblings, min(gpa) FROM students WHERE gpa <= 3.1 GROUP BY number_siblings, favorite_number LIMIT 10;
+ SELECT favorite_number, number_siblings, min(gpa) FROM students WHERE gpa <= 1.24 GROUP BY number_siblings, favorite_number LIMIT 10;
+ SELECT favorite_number, number_siblings, min(gpa) FROM students WHERE gpa <= 2.43 GROUP BY number_siblings, favorite_number LIMIT 10;
+ SELECT favorite_number, number_siblings, min(gpa) FROM students WHERE gpa <= 1.76 GROUP BY number_siblings, favorite_number LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 1.67 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 2.43 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 3.66 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT number_aunts, min(number_uncles), zipcode FROM students WHERE number_cousins <= 17.46 GROUP BY zipcode, number_aunts LIMIT 10;
+ SELECT number_aunts, min(number_uncles), zipcode FROM students WHERE number_cousins <= 8.37 GROUP BY zipcode, number_aunts LIMIT 10;
+ SELECT number_aunts, min(number_uncles), zipcode FROM students WHERE number_cousins <= 1.06 GROUP BY zipcode, number_aunts LIMIT 10;
+ SELECT number_aunts, min(number_uncles), zipcode FROM students WHERE number_cousins <= 1.59 GROUP BY zipcode, number_aunts LIMIT 10;
+ SELECT city, state, min(gender) FROM students GROUP BY state, city LIMIT 10;
+ SELECT city, state, min(gender) FROM students GROUP BY state, city LIMIT 10;
+ SELECT city, state, min(gender) FROM students GROUP BY state, city LIMIT 10;
+ SELECT city, state, min(gender) FROM students GROUP BY state, city LIMIT 10;
+ SELECT city, state, min(gender) FROM students GROUP BY state, city LIMIT 10;
+ SELECT min(zipcode), number_siblings FROM students WHERE weight <= 161.22 GROUP BY number_siblings LIMIT 10;
+ SELECT min(zipcode), number_siblings FROM students WHERE weight <= 51.67 GROUP BY number_siblings LIMIT 10;
+ SELECT min(zipcode), number_siblings FROM students WHERE weight <= 151.0 GROUP BY number_siblings LIMIT 10;
+ SELECT min(zipcode), number_siblings FROM students WHERE weight <= 65.67 GROUP BY number_siblings LIMIT 10;
+ SELECT min(zipcode), number_siblings FROM students WHERE weight <= 99.93 GROUP BY number_siblings LIMIT 10;
+
+quit;

@@ -1,0 +1,26 @@
+ SELECT city, state, min(gender) FROM students GROUP BY state, city LIMIT 10;
+ SELECT city, state, min(gender) FROM students GROUP BY state, city LIMIT 10;
+ SELECT city, state, min(gender) FROM students GROUP BY state, city LIMIT 10;
+ SELECT city, state, min(gender) FROM students GROUP BY state, city LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 2.99 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 1.77 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 2.31 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 2.34 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 0.57 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 4.41 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 0.73 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT favorite_number, number_siblings, min(gpa) FROM students WHERE gpa <= 2.73 GROUP BY number_siblings, favorite_number LIMIT 10;
+ SELECT favorite_number, number_siblings, min(gpa) FROM students WHERE gpa <= 2.46 GROUP BY number_siblings, favorite_number LIMIT 10;
+ SELECT number_cousins, min(city), weight FROM students WHERE number_children <= 8.72 GROUP BY number_cousins, weight LIMIT 10;
+ SELECT number_cousins, min(city), weight FROM students WHERE number_children <= 0.3 GROUP BY number_cousins, weight LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 9.64 GROUP BY weight, height LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 5.0 GROUP BY weight, height LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 1.07 GROUP BY weight, height LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 2.13 GROUP BY weight, height LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 7.42 GROUP BY weight, height LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 9.3 GROUP BY weight, height LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 9.96 GROUP BY weight, height LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 9.59 GROUP BY weight, height LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 0.57 GROUP BY weight, height LIMIT 10;
+
+quit;

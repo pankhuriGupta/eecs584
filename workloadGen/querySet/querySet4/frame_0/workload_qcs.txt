@@ -1,0 +1,5 @@
+major state favorite_number
+fname contact_number
+height major id
+zipcode height major
+zipcode fname

@@ -1,0 +1,5 @@
+city number_children
+gpa height number_children
+city gpa
+favorite_number number_aunts number_cousins
+major gender city

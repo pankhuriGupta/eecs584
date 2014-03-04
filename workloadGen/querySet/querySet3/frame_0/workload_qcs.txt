@@ -1,0 +1,5 @@
+number_children number_cousins
+number_children gender major
+number_aunts number_siblings
+number_aunts fname zipcode
+state fname

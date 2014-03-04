@@ -1,0 +1,5 @@
+SELECT COUNT(*) FROM (SELECT 1 FROM students_sample_1 GROUP BY zipcode) temp ;
+SELECT COUNT(*) FROM (SELECT 1 FROM students_sample_2 GROUP BY lname) temp ;
+SELECT COUNT(*) FROM (SELECT 1 FROM students_sample_3 GROUP BY number_cousins) temp ;
+SELECT COUNT(*) FROM (SELECT 1 FROM students_sample_4 GROUP BY major,number_siblings) temp ;
+quit;

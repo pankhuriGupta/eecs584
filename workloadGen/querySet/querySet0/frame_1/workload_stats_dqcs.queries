@@ -1,0 +1,7 @@
+SELECT COUNT(*) FROM (SELECT 1 FROM students GROUP BY contact_number,country) temp ;
+SELECT COUNT(*) FROM (SELECT 1 FROM students GROUP BY favorite_number,id) temp ;
+SELECT COUNT(*) FROM (SELECT 1 FROM students GROUP BY contact_number,gender) temp ;
+SELECT COUNT(*) FROM (SELECT 1 FROM students GROUP BY state,gpa) temp ;
+SELECT COUNT(*) FROM (SELECT 1 FROM students GROUP BY number_aunts,zipcode,number_children) temp ;
+
+quit;

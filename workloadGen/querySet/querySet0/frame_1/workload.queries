@@ -1,0 +1,27 @@
+ SELECT min(gpa), country FROM students GROUP BY country LIMIT 10;
+ SELECT min(gpa), country FROM students GROUP BY country LIMIT 10;
+ SELECT min(gpa), country FROM students GROUP BY country LIMIT 10;
+ SELECT min(gpa), country FROM students GROUP BY country LIMIT 10;
+ SELECT min(gpa), country FROM students GROUP BY country LIMIT 10;
+ SELECT min(gpa), country FROM students GROUP BY country LIMIT 10;
+ SELECT min(gpa), country FROM students GROUP BY country LIMIT 10;
+ SELECT min(gpa), country FROM students GROUP BY country LIMIT 10;
+ SELECT min(number_uncles), id FROM students WHERE favorite_number <= 31.87 GROUP BY id LIMIT 10;
+ SELECT min(number_uncles), id FROM students WHERE favorite_number <= 11.49 GROUP BY id LIMIT 10;
+ SELECT min(number_uncles), id FROM students WHERE favorite_number <= 33.65 GROUP BY id LIMIT 10;
+ SELECT min(number_uncles), id FROM students WHERE favorite_number <= 84.16 GROUP BY id LIMIT 10;
+ SELECT min(number_uncles), id FROM students WHERE favorite_number <= 14.69 GROUP BY id LIMIT 10;
+ SELECT min(number_uncles), id FROM students WHERE favorite_number <= 21.75 GROUP BY id LIMIT 10;
+ SELECT min(number_uncles), id FROM students WHERE favorite_number <= 42.46 GROUP BY id LIMIT 10;
+ SELECT contact_number, min(gpa) FROM students GROUP BY contact_number LIMIT 10;
+ SELECT contact_number, min(gpa) FROM students GROUP BY contact_number LIMIT 10;
+ SELECT contact_number, min(gpa) FROM students GROUP BY contact_number LIMIT 10;
+ SELECT contact_number, min(gpa) FROM students GROUP BY contact_number LIMIT 10;
+ SELECT contact_number, min(gpa) FROM students GROUP BY contact_number LIMIT 10;
+ SELECT min(height), state FROM students WHERE gpa <= 1.91 GROUP BY state LIMIT 10;
+ SELECT min(height), state FROM students WHERE gpa <= 3.68 GROUP BY state LIMIT 10;
+ SELECT min(height), state FROM students WHERE gpa <= 2.15 GROUP BY state LIMIT 10;
+ SELECT min(height), state FROM students WHERE gpa <= 3.52 GROUP BY state LIMIT 10;
+ SELECT number_aunts, min(id), zipcode FROM students WHERE number_children <= 9.39 GROUP BY zipcode, number_aunts LIMIT 10;
+
+quit;

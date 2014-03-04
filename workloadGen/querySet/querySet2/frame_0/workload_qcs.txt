@@ -1,0 +1,5 @@
+contact_number major
+number_aunts number_uncles
+major city
+gpa height number_children
+number_children country state

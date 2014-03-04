@@ -1,0 +1,7 @@
+SELECT COUNT(*) FROM (SELECT 1 FROM students GROUP BY lname,city) temp ;
+SELECT COUNT(*) FROM (SELECT 1 FROM students GROUP BY major,weight) temp ;
+SELECT COUNT(*) FROM (SELECT 1 FROM students GROUP BY fname,number_children) temp ;
+SELECT COUNT(*) FROM (SELECT 1 FROM students GROUP BY state,id) temp ;
+SELECT COUNT(*) FROM (SELECT 1 FROM students GROUP BY contact_number,number_children,number_uncles) temp ;
+
+quit;

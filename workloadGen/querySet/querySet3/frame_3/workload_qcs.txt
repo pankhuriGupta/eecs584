@@ -1,0 +1,5 @@
+number_children gender major
+country id number_cousins
+zipcode fname number_cousins
+number_children
+gender weight gpa

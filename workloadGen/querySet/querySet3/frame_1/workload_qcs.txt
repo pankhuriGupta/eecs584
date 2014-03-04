@@ -1,0 +1,5 @@
+number_children gender major
+contact_number fname number_children
+state favorite_number
+gpa state number_uncles
+fname number_cousins

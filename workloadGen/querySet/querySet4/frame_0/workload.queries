@@ -1,0 +1,24 @@
+ SELECT state, favorite_number, min(number_children) FROM students GROUP BY state, favorite_number LIMIT 10;
+ SELECT state, favorite_number, min(number_children) FROM students GROUP BY state, favorite_number LIMIT 10;
+ SELECT state, favorite_number, min(number_children) FROM students GROUP BY state, favorite_number LIMIT 10;
+ SELECT state, favorite_number, min(number_children) FROM students GROUP BY state, favorite_number LIMIT 10;
+ SELECT min(state), contact_number FROM students GROUP BY contact_number LIMIT 10;
+ SELECT min(state), contact_number FROM students GROUP BY contact_number LIMIT 10;
+ SELECT height, min(favorite_number), id FROM students GROUP BY id, height LIMIT 10;
+ SELECT height, min(favorite_number), id FROM students GROUP BY id, height LIMIT 10;
+ SELECT min(number_children), height, major FROM students GROUP BY major, height LIMIT 10;
+ SELECT min(number_children), height, major FROM students GROUP BY major, height LIMIT 10;
+ SELECT min(number_children), height, major FROM students GROUP BY major, height LIMIT 10;
+ SELECT min(number_children), height, major FROM students GROUP BY major, height LIMIT 10;
+ SELECT min(number_children), height, major FROM students GROUP BY major, height LIMIT 10;
+ SELECT min(state), fname FROM students GROUP BY fname LIMIT 10;
+ SELECT min(state), fname FROM students GROUP BY fname LIMIT 10;
+ SELECT min(state), fname FROM students GROUP BY fname LIMIT 10;
+ SELECT min(state), fname FROM students GROUP BY fname LIMIT 10;
+ SELECT min(state), fname FROM students GROUP BY fname LIMIT 10;
+ SELECT min(state), fname FROM students GROUP BY fname LIMIT 10;
+ SELECT min(state), fname FROM students GROUP BY fname LIMIT 10;
+ SELECT min(state), fname FROM students GROUP BY fname LIMIT 10;
+ SELECT min(state), fname FROM students GROUP BY fname LIMIT 10;
+
+quit;

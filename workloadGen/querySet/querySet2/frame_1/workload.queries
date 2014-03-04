@@ -1,0 +1,27 @@
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT min(number_children), city FROM students GROUP BY city LIMIT 10;
+ SELECT gpa, height, min(fname) FROM students WHERE number_children <= 8.74 GROUP BY height, gpa LIMIT 10;
+ SELECT gpa, height, min(fname) FROM students WHERE number_children <= 0.15 GROUP BY height, gpa LIMIT 10;
+ SELECT gpa, height, min(fname) FROM students WHERE number_children <= 1.87 GROUP BY height, gpa LIMIT 10;
+ SELECT gpa, height, min(fname) FROM students WHERE number_children <= 9.07 GROUP BY height, gpa LIMIT 10;
+ SELECT gpa, height, min(fname) FROM students WHERE number_children <= 0.69 GROUP BY height, gpa LIMIT 10;
+ SELECT min(contact_number), zipcode FROM students WHERE number_cousins <= 13.12 GROUP BY zipcode LIMIT 10;
+ SELECT min(contact_number), zipcode FROM students WHERE number_cousins <= 9.54 GROUP BY zipcode LIMIT 10;
+ SELECT min(contact_number), zipcode FROM students WHERE number_cousins <= 16.99 GROUP BY zipcode LIMIT 10;
+ SELECT min(contact_number), zipcode FROM students WHERE number_cousins <= 13.36 GROUP BY zipcode LIMIT 10;
+ SELECT min(contact_number), zipcode FROM students WHERE number_cousins <= 7.89 GROUP BY zipcode LIMIT 10;
+ SELECT favorite_number, min(city), number_aunts FROM students GROUP BY number_aunts, favorite_number LIMIT 10;
+ SELECT favorite_number, min(city), number_aunts FROM students GROUP BY number_aunts, favorite_number LIMIT 10;
+ SELECT favorite_number, min(city), number_aunts FROM students GROUP BY number_aunts, favorite_number LIMIT 10;
+ SELECT min(contact_number), number_children FROM students GROUP BY number_children LIMIT 10;
+ SELECT min(contact_number), number_children FROM students GROUP BY number_children LIMIT 10;
+ SELECT min(contact_number), number_children FROM students GROUP BY number_children LIMIT 10;
+ SELECT min(contact_number), number_children FROM students GROUP BY number_children LIMIT 10;
+ SELECT min(contact_number), number_children FROM students GROUP BY number_children LIMIT 10;
+ SELECT min(contact_number), number_children FROM students GROUP BY number_children LIMIT 10;
+
+quit;

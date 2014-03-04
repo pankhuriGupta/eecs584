@@ -1,0 +1,5 @@
+lname city
+major weight
+fname number_children
+state id
+contact_number number_children number_uncles

@@ -1,0 +1,5 @@
+/home/ec2-user/blinkdb
+-i /home/ec2-user/eecs584/workloadGen/candidateSet/frame_0/candidate_stats_storage.queries
+Starting the Shark Command Line Client
+/home/ec2-user/blinkdb/target/scala-2.9.3/classes
+/home/ec2-user/blinkdb/target/scala-2.9.3/shark_2.9.3-0.8.0-SNAPSHOT.jar

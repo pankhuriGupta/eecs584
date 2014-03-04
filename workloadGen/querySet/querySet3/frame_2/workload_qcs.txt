@@ -1,0 +1,5 @@
+number_children gender major
+height zipcode
+major fname
+contact_number number_siblings number_aunts
+number_siblings country

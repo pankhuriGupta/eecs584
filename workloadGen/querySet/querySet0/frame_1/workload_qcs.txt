@@ -1,0 +1,5 @@
+contact_number country
+favorite_number id
+contact_number gender
+state gpa
+number_aunts zipcode number_children

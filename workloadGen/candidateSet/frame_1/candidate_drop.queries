@@ -1,0 +1,5 @@
+DROP TABLE students_sample_1;
+DROP TABLE students_sample_2;
+DROP TABLE students_sample_3;
+DROP TABLE students_sample_4;
+quit;

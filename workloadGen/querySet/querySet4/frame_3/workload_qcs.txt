@@ -1,0 +1,5 @@
+country height contact_number
+height number_cousins lname
+city number_children number_uncles
+city fname gpa
+gender number_children

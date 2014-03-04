@@ -1,0 +1,5 @@
+CREATE TABLE students_sample_1 AS SELECT students.* FROM students JOIN ( SELECT zipcode, count(1)/1107756 ratio FROM students GROUP BY zipcode) temp ON (students.zipcode = temp.zipcode)  WHERE rand() < ratio;
+CREATE TABLE students_sample_2 AS SELECT students.* FROM students JOIN ( SELECT lname, count(1)/1107756 ratio FROM students GROUP BY lname) temp ON (students.lname = temp.lname)  WHERE rand() < ratio;
+CREATE TABLE students_sample_3 AS SELECT students.* FROM students JOIN ( SELECT number_cousins, count(1)/1107756 ratio FROM students WHERE number_cousins <= 19 GROUP BY number_cousins) temp ON (students.number_cousins = temp.number_cousins)  WHERE rand() < ratio;
+CREATE TABLE students_sample_4 AS SELECT students.* FROM students JOIN ( SELECT major,number_siblings, count(1)/1107756 ratio FROM students WHERE number_siblings <= 2 GROUP BY major,number_siblings) temp ON (students.major = temp.major)  WHERE rand() < ratio;
+quit;

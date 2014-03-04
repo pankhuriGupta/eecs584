@@ -1,0 +1,19 @@
+id double 1 14000000
+fname string	
+lname string	
+gpa float 1.0 4.0
+major string	
+contact_number string	
+gender string	
+city string	
+state string	
+country string	
+zipcode string	
+height float 4.0 6.5
+weight float 50.0 200.0
+number_siblings int 0 5
+favorite_number int 0 100
+number_cousins int 0 20
+number_uncles int 0 10
+number_aunts int 0 10
+number_children int 0 10	

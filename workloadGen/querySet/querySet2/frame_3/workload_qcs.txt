@@ -1,0 +1,5 @@
+major gender city
+favorite_number number_aunts number_cousins
+state weight
+id gender major
+lname gender

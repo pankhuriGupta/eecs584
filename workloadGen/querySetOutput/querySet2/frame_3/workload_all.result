@@ -1,0 +1,505 @@
+/home/ec2-user/blinkdb
+-i /home/ec2-user/eecs584/workloadGen/querySet/querySet2/frame_3/workload.queries
+Starting the Shark Command Line Client
+/home/ec2-user/blinkdb/target/scala-2.9.3/classes
+/home/ec2-user/blinkdb/target/scala-2.9.3/shark_2.9.3-0.8.0-SNAPSHOT.jar
+4.486: [GC 262656K->21504K(1005568K), 0.0628210 secs]
+5.898: [GC 149710K->16905K(1005568K), 0.0325600 secs]
+5.931: [Full GC 16905K->16172K(1005568K), 0.1879060 secs]
+6.139: [GC 24922K->16243K(1005568K), 0.0024220 secs]
+6.141: [Full GC 16243K->9127K(1005568K), 0.1115680 secs]
+10.197: [GC 271783K->29498K(1005568K), 0.0396490 secs]
+11.129: [GC 289355K->50565K(1005568K), 0.0366600 secs]
+12.414: [GC 308368K->39120K(1005568K), 0.0438390 secs]
+13.394: [GC 301776K->38932K(992256K), 0.0332810 secs]
+14.236: [GC 301588K->38932K(1001472K), 0.0348110 secs]
+14.920: [GC 292932K->49162K(987648K), 0.0242980 secs]
+Astrology	111-013-747	Cambridge
+Music	111-040-572	Edinburgh
+Medical	111-118-980	San Jose
+Astrology	111-229-188	Surat
+Dance	111-376-013	British Columbia
+Criminology	111-184-909	Mountainview
+Accounting	111-081-089	British Columbia
+Dance	111-048-477	Surat
+Accounting	111-175-526	Ahmedabad
+Accounting	111-074-014	Portland
+15.509: [GC 303626K->20190K(997888K), 0.0079460 secs]
+15.899: [GC 267028K->50339K(982016K), 0.0150700 secs]
+16.666: [GC 297000K->49785K(996864K), 0.0121760 secs]
+17.344: [GC 292374K->49936K(997376K), 0.0109620 secs]
+17.946: [GC 292432K->50072K(997888K), 0.0097200 secs]
+18.550: [GC 292994K->50206K(997376K), 0.0096760 secs]
+18.981: [GC 295438K->29824K(997888K), 0.0115110 secs]
+Astrology	111-013-747	Cambridge
+Music	111-040-572	Edinburgh
+Medical	111-118-980	San Jose
+Astrology	111-229-188	Surat
+Dance	111-376-013	British Columbia
+Criminology	111-184-909	Mountainview
+Accounting	111-081-089	British Columbia
+Dance	111-048-477	Surat
+Accounting	111-175-526	Ahmedabad
+Accounting	111-074-014	Portland
+19.494: [GC 277120K->41885K(997888K), 0.0142780 secs]
+20.345: [GC 283093K->40938K(1001984K), 0.0096730 secs]
+20.951: [GC 289597K->51156K(1000448K), 0.0168460 secs]
+21.575: [GC 300277K->41074K(1003520K), 0.0107330 secs]
+22.163: [GC 288100K->51432K(1001472K), 0.0168050 secs]
+22.609: [GC 303448K->20679K(997888K), 0.0036890 secs]
+Astrology	111-013-747	Cambridge
+Music	111-040-572	Edinburgh
+Medical	111-118-980	San Jose
+Astrology	111-229-188	Surat
+Dance	111-376-013	British Columbia
+Criminology	111-184-909	Mountainview
+Accounting	111-081-089	British Columbia
+Dance	111-048-477	Surat
+Accounting	111-175-526	Ahmedabad
+Accounting	111-074-014	Portland
+23.139: [GC 273095K->43023K(1000448K), 0.0144890 secs]
+23.788: [GC 287004K->42153K(1005056K), 0.0098490 secs]
+24.433: [GC 299756K->41968K(1003008K), 0.0127160 secs]
+25.047: [GC 300130K->42094K(1008640K), 0.0124940 secs]
+25.682: [GC 309358K->42324K(1007104K), 0.0083000 secs]
+Astrology	111-013-747	Cambridge
+Music	111-040-572	Edinburgh
+Medical	111-118-980	San Jose
+Astrology	111-229-188	Surat
+Dance	111-376-013	British Columbia
+Criminology	111-184-909	Mountainview
+Accounting	111-081-089	British Columbia
+Dance	111-048-477	Surat
+Accounting	111-175-526	Ahmedabad
+Accounting	111-074-014	Portland
+26.181: [GC 306886K->33096K(1010176K), 0.0071160 secs]
+26.525: [GC 304968K->43311K(1010176K), 0.0156640 secs]
+27.315: [GC 315183K->42890K(1013248K), 0.0083430 secs]
+28.091: [GC 315026K->43016K(1011712K), 0.0083890 secs]
+28.684: [GC 311267K->43038K(1015808K), 0.0132040 secs]
+29.080: [GC 323863K->53397K(1013248K), 0.0101640 secs]
+Astrology	111-013-747	Cambridge
+Music	111-040-572	Edinburgh
+Medical	111-118-980	San Jose
+Astrology	111-229-188	Surat
+Dance	111-376-013	British Columbia
+Criminology	111-184-909	Mountainview
+Accounting	111-081-089	British Columbia
+Dance	111-048-477	Surat
+Accounting	111-175-526	Ahmedabad
+Accounting	111-074-014	Portland
+29.546: [GC 334105K->34548K(1013248K), 0.0095190 secs]
+30.168: [GC 312564K->44093K(1013248K), 0.0089580 secs]
+30.752: [GC 314366K->54014K(1009152K), 0.0197320 secs]
+31.392: [GC 328958K->43898K(1011712K), 0.0084980 secs]
+32.148: [GC 309610K->44056K(1014272K), 0.0129120 secs]
+Astrology	111-013-747	Cambridge
+Music	111-040-572	Edinburgh
+Medical	111-118-980	San Jose
+Astrology	111-229-188	Surat
+Dance	111-376-013	British Columbia
+Criminology	111-184-909	Mountainview
+Accounting	111-081-089	British Columbia
+Dance	111-048-477	Surat
+Accounting	111-175-526	Ahmedabad
+Accounting	111-074-014	Portland
+32.545: [GC 320188K->24608K(980480K), 0.0068130 secs]
+33.108: [GC 303648K->45031K(1013248K), 0.0109190 secs]
+33.843: [GC 317820K->54883K(1008128K), 0.0138720 secs]
+34.444: [GC 323934K->24018K(1006592K), 0.0033030 secs]
+35.045: [GC 292107K->34297K(1008640K), 0.0105230 secs]
+35.464: [GC 296152K->45308K(1010176K), 0.0126640 secs]
+Astrology	111-013-747	Cambridge
+Music	111-040-572	Edinburgh
+Medical	111-118-980	San Jose
+Astrology	111-229-188	Surat
+Dance	111-376-013	British Columbia
+Criminology	111-184-909	Mountainview
+Accounting	111-081-089	British Columbia
+Dance	111-048-477	Surat
+Accounting	111-175-526	Ahmedabad
+Accounting	111-074-014	Portland
+35.875: [GC 316156K->25477K(1009152K), 0.0043520 secs]
+36.671: [GC 292665K->46157K(1009664K), 0.0108130 secs]
+37.225: [GC 316493K->55803K(1001472K), 0.0142620 secs]
+38.141: [GC 317078K->56265K(1001472K), 0.0101020 secs]
+38.489: [GC 312836K->35400K(1004032K), 0.0058920 secs]
+84	0	20
+84	0	19
+84	0	3
+84	0	4
+84	0	5
+84	0	6
+84	0	7
+84	0	8
+84	0	9
+84	0	10
+38.939: [GC 289188K->26381K(1004032K), 0.0036010 secs]
+39.605: [GC 281400K->57325K(992768K), 0.0113020 secs]
+40.135: [GC 310430K->25682K(1001472K), 0.0037830 secs]
+40.675: [GC 279369K->46900K(1001472K), 0.0080960 secs]
+41.252: [GC 301163K->56770K(998400K), 0.0101740 secs]
+84	0	20
+84	0	19
+84	0	3
+84	0	4
+84	0	5
+84	0	6
+84	0	7
+84	0	8
+84	0	9
+84	0	10
+41.739: [GC 305779K->27095K(1000448K), 0.0054060 secs]
+42.029: [GC 274747K->57790K(995328K), 0.0178990 secs]
+42.618: [GC 304567K->47132K(997888K), 0.0080760 secs]
+43.220: [GC 292580K->57507K(996352K), 0.0257660 secs]
+44.115: [GC 305827K->47745K(998400K), 0.0095430 secs]
+44.571: [GC 295927K->26821K(999936K), 0.0042010 secs]
+84	0	20
+84	0	19
+84	0	3
+84	0	4
+84	0	5
+84	0	6
+84	0	7
+84	0	8
+84	0	9
+84	0	10
+44.875: [GC 273022K->38301K(1000448K), 0.0069250 secs]
+45.142: [GC 281981K->48458K(1003520K), 0.0090150 secs]
+45.971: [GC 305994K->48364K(1002496K), 0.0143170 secs]
+46.727: [GC 300291K->37848K(1006592K), 0.0087880 secs]
+47.305: [GC 294896K->27572K(1005056K), 0.0041420 secs]
+47.699: [GC 281167K->59030K(998912K), 0.0137870 secs]
+84	0	20
+84	0	19
+84	0	3
+84	0	4
+84	0	5
+84	0	6
+84	0	7
+84	0	8
+84	0	9
+84	0	10
+48.040: [GC 315542K->28843K(1002496K), 0.0069380 secs]
+48.656: [GC 276269K->28494K(1003520K), 0.0044220 secs]
+49.219: [GC 286542K->49305K(1003008K), 0.0127930 secs]
+49.779: [GC 304962K->48983K(1004544K), 0.0132870 secs]
+50.452: [GC 308567K->49308K(1003520K), 0.0131660 secs]
+84	0	20
+84	0	19
+84	0	3
+84	0	4
+84	0	5
+84	0	6
+84	0	7
+84	0	8
+84	0	9
+84	0	10
+50.859: [GC 307907K->29569K(1005568K), 0.0073110 secs]
+51.140: [GC 285917K->50000K(1005056K), 0.0112760 secs]
+51.988: [GC 312038K->49895K(1006080K), 0.0107330 secs]
+52.489: [GC 312815K->28995K(1005568K), 0.0041900 secs]
+53.027: [GC 282929K->50256K(1006080K), 0.0084930 secs]
+53.366: [GC 308331K->39684K(1006080K), 0.0069290 secs]
+84	0	20
+84	0	19
+84	0	3
+84	0	4
+84	0	5
+84	0	6
+84	0	7
+84	0	8
+84	0	9
+84	0	10
+53.755: [GC 301715K->40842K(1010176K), 0.0097240 secs]
+54.349: [GC 305223K->61154K(1001472K), 0.0112110 secs]
+54.979: [GC 330978K->50848K(1007104K), 0.0147120 secs]
+55.884: [GC 308382K->40342K(1006080K), 0.0085220 secs]
+56.233: [GC 300992K->51254K(1008640K), 0.0138440 secs]
+84	0	20
+84	0	19
+84	0	3
+84	0	4
+84	0	5
+84	0	6
+84	0	7
+84	0	8
+84	0	9
+84	0	10
+56.637: [GC 320054K->31331K(1008640K), 0.0055240 secs]
+57.391: [GC 300131K->51659K(1008640K), 0.0140310 secs]
+57.959: [GC 320459K->51237K(1008640K), 0.0086250 secs]
+58.526: [GC 320037K->51395K(1009664K), 0.0096390 secs]
+59.093: [GC 321731K->51489K(1009152K), 0.0108380 secs]
+59.637: [GC 318117K->61887K(1004032K), 0.0167150 secs]
+0	Bristol
+0	London
+0	New York
+0	Hampshire
+0	Washington
+0	Gujarat
+0	Tamil Nadu
+0	Utah
+0	California
+0	Illinois
+59.949: [GC 327615K->32299K(967168K), 0.0075060 secs]
+60.207: [GC 296496K->62919K(1000448K), 0.0119690 secs]
+60.772: [GC 313398K->62502K(989696K), 0.0173750 secs]
+61.339: [GC 313412K->62620K(998400K), 0.0134500 secs]
+61.909: [GC 313280K->62706K(982528K), 0.0108090 secs]
+62.456: [GC 314061K->52045K(1001472K), 0.0122670 secs]
+62.814: [GC 298240K->52632K(998912K), 0.0124110 secs]
+0	Bristol
+0	London
+0	New York
+0	Hampshire
+0	Washington
+0	Gujarat
+0	Tamil Nadu
+0	Utah
+0	California
+0	Illinois
+63.139: [GC 297875K->33385K(1000960K), 0.0049040 secs]
+63.636: [GC 289897K->53722K(1002496K), 0.0092190 secs]
+64.126: [GC 310234K->53302K(1006592K), 0.0110760 secs]
+64.655: [GC 315958K->53428K(1004544K), 0.0127070 secs]
+65.193: [GC 316084K->53562K(1010176K), 0.0093030 secs]
+65.759: [GC 323898K->53688K(1008640K), 0.0128380 secs]
+0	Bristol
+0	London
+0	New York
+0	Hampshire
+0	Washington
+0	Gujarat
+0	Tamil Nadu
+0	Utah
+0	California
+0	Illinois
+66.170: [GC 322048K->44549K(1011712K), 0.0117910 secs]
+66.456: [GC 315594K->54724K(1011712K), 0.0096730 secs]
+67.021: [GC 324075K->54307K(1013760K), 0.0097700 secs]
+67.583: [GC 323229K->54442K(1012736K), 0.0134950 secs]
+68.143: [GC 323335K->54568K(1015808K), 0.0108100 secs]
+68.704: [GC 334618K->64934K(1013248K), 0.0169330 secs]
+69.098: [GC 347046K->34672K(1008128K), 0.0051800 secs]
+0	Bristol
+0	London
+0	Hampshire
+0	New York
+0	Washington
+0	Tamil Nadu
+0	Gujarat
+0	Utah
+0	Plymouth
+0	California
+69.468: [GC 301323K->66602K(1005568K), 0.0183040 secs]
+70.097: [GC 334274K->55353K(1009664K), 0.0088230 secs]
+70.687: [GC 324153K->55050K(1007616K), 0.0105670 secs]
+71.293: [GC 321882K->45166K(1011200K), 0.0103500 secs]
+71.901: [GC 312939K->34999K(974336K), 0.0044000 secs]
+72.271: [GC 305179K->55613K(1010688K), 0.0080580 secs]
+0	Bristol
+0	London
+0	Hampshire
+0	New York
+0	Washington
+0	Tamil Nadu
+0	Gujarat
+0	Utah
+0	California
+0	Illinois
+72.606: [GC 326107K->36243K(1009664K), 0.0054400 secs]
+73.220: [GC 308115K->56603K(1010176K), 0.0106520 secs]
+73.713: [GC 328475K->56209K(1010176K), 0.0127440 secs]
+74.193: [GC 328081K->56367K(1011712K), 0.0107700 secs]
+74.839: [GC 320263K->66701K(1005056K), 0.0185730 secs]
+75.474: [GC 331304K->45667K(1009152K), 0.0078710 secs]
+75.873: [GC 314134K->66719K(1000448K), 0.0133510 secs]
+male	Photography	male
+female	Criminology	female
+female	Medical	female
+female	Accounting	female
+female	Dance	female
+male	Accounting	male
+male	Astrology	male
+female	Photography	female
+male	Finance	male
+female	Music	female
+76.204: [GC 328355K->37174K(1005056K), 0.0056970 secs]
+76.650: [GC 299830K->57525K(1005568K), 0.0091300 secs]
+77.095: [GC 320181K->57103K(1008128K), 0.0083680 secs]
+77.706: [GC 313976K->67469K(997376K), 0.0101980 secs]
+78.323: [GC 333083K->46396K(1006080K), 0.0056790 secs]
+78.976: [GC 303292K->67663K(1005568K), 0.0174780 secs]
+79.370: [GC 326549K->57483K(1008640K), 0.0099930 secs]
+male	Photography	male
+female	Criminology	female
+female	Medical	female
+female	Accounting	female
+female	Dance	female
+male	Accounting	male
+male	Astrology	male
+female	Photography	female
+male	Finance	male
+female	Music	female
+79.652: [GC 324050K->58648K(1007616K), 0.0116580 secs]
+79.931: [GC 326424K->68768K(1010176K), 0.0140830 secs]
+80.578: [GC 330652K->78623K(1002496K), 0.0178530 secs]
+81.204: [GC 344583K->57558K(1008128K), 0.0087900 secs]
+81.858: [GC 314331K->78729K(1007104K), 0.0267500 secs]
+82.380: [GC 345481K->78879K(1010176K), 0.0131400 secs]
+82.865: [GC 349727K->79037K(1009152K), 0.0122950 secs]
+male	Photography	male
+female	Criminology	female
+female	Medical	female
+female	Accounting	female
+female	Dance	female
+male	Accounting	male
+male	Astrology	male
+female	Photography	female
+male	Finance	male
+female	Music	female
+83.206: [GC 349026K->59634K(1009152K), 0.0040000 secs]
+83.472: [GC 325572K->90297K(1003520K), 0.0183240 secs]
+84.131: [GC 354905K->79603K(1008640K), 0.0130650 secs]
+84.757: [GC 337020K->79088K(1007104K), 0.0257340 secs]
+85.354: [GC 346352K->90052K(1010176K), 0.0130630 secs]
+85.855: [GC 360900K->90170K(1009152K), 0.0132660 secs]
+86.335: [GC 361018K->90296K(1012224K), 0.0137260 secs]
+male	Photography	male
+female	Criminology	female
+female	Medical	female
+female	Accounting	female
+female	Dance	female
+male	Accounting	male
+male	Astrology	male
+female	Photography	female
+male	Finance	male
+female	Music	female
+86.769: [GC 361690K->70896K(976384K), 0.0040060 secs]
+87.038: [GC 340977K->101594K(1004544K), 0.0185130 secs]
+87.665: [GC 367683K->79942K(1007616K), 0.0057880 secs]
+88.314: [GC 336494K->101176K(1009152K), 0.0175180 secs]
+88.833: [GC 369976K->101294K(1008128K), 0.0133660 secs]
+89.308: [GC 370094K->101428K(1011200K), 0.0087850 secs]
+89.792: [GC 374324K->101562K(1010176K), 0.0086390 secs]
+male	Photography	male
+female	Criminology	female
+female	Medical	female
+female	Accounting	female
+female	Dance	female
+male	Accounting	male
+male	Astrology	male
+female	Photography	female
+male	Finance	male
+female	Music	female
+90.220: [GC 374458K->81427K(1010176K), 0.0037930 secs]
+90.575: [GC 355347K->103133K(1011200K), 0.0094280 secs]
+91.195: [GC 368759K->80966K(1009152K), 0.0056700 secs]
+91.850: [GC 348228K->112474K(1003008K), 0.0104000 secs]
+92.392: [GC 384346K->112598K(1007616K), 0.0177960 secs]
+92.859: [GC 378326K->112700K(1006592K), 0.0088570 secs]
+93.321: [GC 373033K->123074K(1003520K), 0.0103720 secs]
+93.710: [GC 379739K->102752K(1006080K), 0.0069710 secs]
+male	Photography	male
+female	Criminology	female
+female	Medical	female
+female	Accounting	female
+female	Dance	female
+male	Accounting	male
+male	Astrology	male
+female	Photography	female
+male	Finance	male
+female	Music	female
+94.061: [GC 365456K->103923K(1008128K), 0.0086450 secs]
+94.733: [GC 370675K->123756K(1007104K), 0.0292850 secs]
+95.321: [GC 390508K->123864K(1010176K), 0.0195980 secs]
+95.807: [GC 394712K->123998K(1009152K), 0.0126300 secs]
+96.288: [GC 394846K->124124K(1012224K), 0.0136120 secs]
+96.896: [GC 398571K->134522K(1006080K), 0.0196170 secs]
+97.306: [GC 402888K->124400K(1011200K), 0.0137940 secs]
+male	Photography	male
+female	Criminology	female
+female	Medical	female
+female	Accounting	female
+female	Dance	female
+male	Accounting	male
+male	Astrology	male
+female	Photography	female
+male	Finance	male
+female	Music	female
+97.681: [GC 393323K->126279K(1009664K), 0.0151210 secs]
+98.339: [GC 398663K->124963K(1013248K), 0.0144980 secs]
+99.097: [GC 396018K->125065K(1011712K), 0.0136190 secs]
+99.656: [GC 394722K->136000K(1008640K), 0.0118460 secs]
+Hammers	0
+Bush	0
+Meyers	0
+Montana	0
+Hayden	0
+Mozafari	0
+Jackson	0
+Presley	0
+Jefferson	0
+Thomas	0
+100.100: [GC 410944K->106068K(976384K), 0.0200520 secs]
+100.375: [GC 373708K->136550K(1004544K), 0.0152630 secs]
+101.267: [GC 399731K->115620K(1007104K), 0.0078970 secs]
+101.798: [GC 381348K->126798K(1009152K), 0.0091580 secs]
+102.401: [GC 395086K->126162K(1007616K), 0.0137760 secs]
+Hammers	0
+Bush	0
+Meyers	0
+Montana	0
+Hayden	0
+Mozafari	0
+Jackson	0
+Presley	0
+Jefferson	0
+Thomas	0
+102.764: [GC 386622K->106741K(1007616K), 0.0067690 secs]
+103.198: [GC 376565K->127144K(1009152K), 0.0147620 secs]
+103.894: [GC 392437K->116313K(1010688K), 0.0108900 secs]
+104.438: [GC 384949K->137542K(1004032K), 0.0176140 secs]
+105.165: [GC 403677K->116601K(1008128K), 0.0112980 secs]
+Hammers	0
+Bush	0
+Meyers	0
+Montana	0
+Hayden	0
+Mozafari	0
+Jackson	0
+Presley	0
+Jefferson	0
+Thomas	0
+105.440: [GC 382306K->117765K(1007616K), 0.0085210 secs]
+106.052: [GC 382058K->138136K(1003008K), 0.0188360 secs]
+106.565: [GC 396006K->117062K(1006080K), 0.0106460 secs]
+107.115: [GC 377049K->128019K(1008128K), 0.0134050 secs]
+107.803: [GC 392183K->127597K(1007104K), 0.0136160 secs]
+Hammers	0
+Bush	0
+Meyers	0
+Montana	0
+Hayden	0
+Mozafari	0
+Jackson	0
+Presley	0
+Jefferson	0
+Thomas	0
+108.090: [GC 394349K->108282K(1007616K), 0.0046920 secs]
+108.703: [GC 372559K->118317K(1008640K), 0.0125840 secs]
+109.249: [GC 385886K->128720K(1010176K), 0.0087260 secs]
+109.880: [GC 400080K->128322K(1009664K), 0.0087950 secs]
+110.466: [GC 391897K->107810K(1009664K), 0.0052810 secs]
+Hammers	0
+Bush	0
+Meyers	0
+Montana	0
+Hayden	0
+Mozafari	0
+Jackson	0
+Presley	0
+Jefferson	0
+Thomas	0

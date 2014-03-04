@@ -1,0 +1,24 @@
+ SELECT number_children, number_cousins, min(city) FROM students WHERE number_children <= 7.92 GROUP BY number_cousins, number_children LIMIT 10;
+ SELECT min(number_cousins), number_children, major FROM students GROUP BY major, number_children LIMIT 10;
+ SELECT min(number_cousins), number_children, major FROM students GROUP BY major, number_children LIMIT 10;
+ SELECT min(number_cousins), number_children, major FROM students GROUP BY major, number_children LIMIT 10;
+ SELECT min(number_cousins), number_children, major FROM students GROUP BY major, number_children LIMIT 10;
+ SELECT min(number_cousins), number_children, major FROM students GROUP BY major, number_children LIMIT 10;
+ SELECT min(number_cousins), number_children, major FROM students GROUP BY major, number_children LIMIT 10;
+ SELECT min(number_cousins), number_aunts FROM students WHERE number_siblings <= 1.54 GROUP BY number_aunts LIMIT 10;
+ SELECT min(number_cousins), number_aunts FROM students WHERE number_siblings <= 1.38 GROUP BY number_aunts LIMIT 10;
+ SELECT min(number_cousins), number_aunts FROM students WHERE number_siblings <= 0.69 GROUP BY number_aunts LIMIT 10;
+ SELECT min(number_cousins), number_aunts FROM students WHERE number_siblings <= 1.63 GROUP BY number_aunts LIMIT 10;
+ SELECT number_aunts, zipcode, min(weight) FROM students GROUP BY number_aunts, zipcode LIMIT 10;
+ SELECT number_aunts, zipcode, min(weight) FROM students GROUP BY number_aunts, zipcode LIMIT 10;
+ SELECT number_aunts, zipcode, min(weight) FROM students GROUP BY number_aunts, zipcode LIMIT 10;
+ SELECT number_aunts, zipcode, min(weight) FROM students GROUP BY number_aunts, zipcode LIMIT 10;
+ SELECT number_aunts, zipcode, min(weight) FROM students GROUP BY number_aunts, zipcode LIMIT 10;
+ SELECT number_aunts, zipcode, min(weight) FROM students GROUP BY number_aunts, zipcode LIMIT 10;
+ SELECT min(favorite_number), fname FROM students GROUP BY fname LIMIT 10;
+ SELECT min(favorite_number), fname FROM students GROUP BY fname LIMIT 10;
+ SELECT min(favorite_number), fname FROM students GROUP BY fname LIMIT 10;
+ SELECT min(favorite_number), fname FROM students GROUP BY fname LIMIT 10;
+ SELECT min(favorite_number), fname FROM students GROUP BY fname LIMIT 10;
+
+quit;

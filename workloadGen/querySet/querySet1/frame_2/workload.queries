@@ -1,0 +1,28 @@
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 2.8 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 3.91 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 4.03 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 3.29 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 4.03 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT number_uncles, min(country), number_cousins FROM students WHERE number_siblings <= 1.93 GROUP BY number_cousins, number_uncles LIMIT 10;
+ SELECT favorite_number, number_siblings, min(gpa) FROM students WHERE gpa <= 2.85 GROUP BY number_siblings, favorite_number LIMIT 10;
+ SELECT favorite_number, number_siblings, min(gpa) FROM students WHERE gpa <= 1.41 GROUP BY number_siblings, favorite_number LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 8.75 GROUP BY weight, height LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 0.48 GROUP BY weight, height LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 1.56 GROUP BY weight, height LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 7.58 GROUP BY weight, height LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 0.12 GROUP BY weight, height LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 1.33 GROUP BY weight, height LIMIT 10;
+ SELECT weight, height, min(number_children) FROM students WHERE number_children <= 7.67 GROUP BY weight, height LIMIT 10;
+ SELECT min(fname), number_cousins FROM students WHERE number_siblings <= 4.57 GROUP BY number_cousins LIMIT 10;
+ SELECT min(fname), number_cousins FROM students WHERE number_siblings <= 1.52 GROUP BY number_cousins LIMIT 10;
+ SELECT min(fname), number_cousins FROM students WHERE number_siblings <= 4.8 GROUP BY number_cousins LIMIT 10;
+ SELECT min(fname), number_cousins FROM students WHERE number_siblings <= 3.97 GROUP BY number_cousins LIMIT 10;
+ SELECT gender, min(major) FROM students WHERE number_aunts <= 5.47 GROUP BY gender LIMIT 10;
+ SELECT gender, min(major) FROM students WHERE number_aunts <= 1.92 GROUP BY gender LIMIT 10;
+ SELECT gender, min(major) FROM students WHERE number_aunts <= 6.75 GROUP BY gender LIMIT 10;
+ SELECT gender, min(major) FROM students WHERE number_aunts <= 2.52 GROUP BY gender LIMIT 10;
+ SELECT gender, min(major) FROM students WHERE number_aunts <= 5.16 GROUP BY gender LIMIT 10;
+ SELECT gender, min(major) FROM students WHERE number_aunts <= 1.85 GROUP BY gender LIMIT 10;
+ SELECT gender, min(major) FROM students WHERE number_aunts <= 5.6 GROUP BY gender LIMIT 10;
+
+quit;
