@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select
+END
+Join.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/Join.java
+END
+SelectVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/SelectVisitor.java
+END
+IntoTableVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/IntoTableVisitor.java
+END
+Top.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/Top.java
+END
+FromItemVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/FromItemVisitor.java
+END
+PlainSelect.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/PlainSelect.java
+END
+SubJoin.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/SubJoin.java
+END
+AllColumns.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/AllColumns.java
+END
+ColumnReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/ColumnReference.java
+END
+Limit.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/Limit.java
+END
+SelectExpressionItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/SelectExpressionItem.java
+END
+SelectItemVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/SelectItemVisitor.java
+END
+Select.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/Select.java
+END
+OrderByElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/OrderByElement.java
+END
+Distinct.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/Distinct.java
+END
+AllTableColumns.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/AllTableColumns.java
+END
+FromItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/FromItem.java
+END
+ColumnIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/ColumnIndex.java
+END
+OrderByVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/OrderByVisitor.java
+END
+Union.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/Union.java
+END
+SubSelect.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/SubSelect.java
+END
+WithItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/WithItem.java
+END
+ColumnReferenceVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/ColumnReferenceVisitor.java
+END
+SelectBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/SelectBody.java
+END
+SelectItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/select/SelectItem.java
+END

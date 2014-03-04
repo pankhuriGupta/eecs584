@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/conditional
+END
+OrExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/conditional/OrExpression.java
+END
+AndExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/conditional/AndExpression.java
+END

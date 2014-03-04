@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/parser
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/parser/Token.java
+END
+TokenMgrError.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/parser/TokenMgrError.java
+END
+regenerateParserFromGrammar.sh
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/parser/regenerateParserFromGrammar.sh
+END
+SimpleCharStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/parser/SimpleCharStream.java
+END
+JSqlParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/parser/JSqlParser.java
+END
+CCJSqlParserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/parser/CCJSqlParserManager.java
+END
+CCJSqlParserTokenManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/parser/CCJSqlParserTokenManager.java
+END
+ParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/parser/ParseException.java
+END
+CCJSqlParserConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/parser/CCJSqlParserConstants.java
+END
+CCJSqlParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/parser/CCJSqlParser.java
+END
+JSqlParserCC.jj
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/parser/JSqlParserCC.jj
+END

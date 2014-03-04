@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/exception
+END
+NotImplementedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/exception/NotImplementedException.java
+END
+JSQLParserException.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/exception/JSQLParserException.java
+END
+MatchingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/exception/MatchingException.java
+END

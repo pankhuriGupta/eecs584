@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/loader
+END
+Schema.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/loader/Schema.java
+END
+RewritingTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/loader/RewritingTester.java
+END
+ForeignKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/loader/ForeignKey.java
+END
+IntegrityConstraint.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/loader/IntegrityConstraint.java
+END
+NotImplementedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/loader/NotImplementedException.java
+END
+IntegrityConstraintsExistsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/loader/IntegrityConstraintsExistsException.java
+END
+SchemaLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/loader/SchemaLoader.java
+END
+TestSchemaLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/loader/TestSchemaLoader.java
+END
+SchemaTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/6/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/loader/SchemaTable.java
+END
+PrimaryKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/loader/PrimaryKey.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/14/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/schema
+END
+ForeignKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/schema/ForeignKey.java
+END
+ReferenceDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/schema/ReferenceDefinition.java
+END
+Table.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/schema/Table.java
+END
+Index.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/schema/Index.java
+END
+Column.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/14/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/schema/Column.java
+END

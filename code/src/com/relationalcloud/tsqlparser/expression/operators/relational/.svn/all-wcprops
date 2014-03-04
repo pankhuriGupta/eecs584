@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational
+END
+GreaterThanEquals.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational/GreaterThanEquals.java
+END
+ExistsExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational/ExistsExpression.java
+END
+MinorThan.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational/MinorThan.java
+END
+GreaterThan.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational/GreaterThan.java
+END
+LikeExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational/LikeExpression.java
+END
+InExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational/InExpression.java
+END
+IsNullExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational/IsNullExpression.java
+END
+Between.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational/Between.java
+END
+MinorThanEquals.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational/MinorThanEquals.java
+END
+ExpressionList.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational/ExpressionList.java
+END
+EqualsTo.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational/EqualsTo.java
+END
+ItemsList.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational/ItemsList.java
+END
+ItemsListVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational/ItemsListVisitor.java
+END
+NotEqualsTo.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/relational/NotEqualsTo.java
+END

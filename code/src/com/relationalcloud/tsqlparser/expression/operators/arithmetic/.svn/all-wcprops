@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/arithmetic
+END
+arithmetic.uod
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/arithmetic/arithmetic.uod
+END
+Division.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/arithmetic/Division.java
+END
+Addition.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/arithmetic/Addition.java
+END
+Subtraction.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/arithmetic/Subtraction.java
+END
+Multiplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/expression/operators/arithmetic/Multiplication.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/schema/datatypes
+END
+TimestampDataType.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/schema/datatypes/TimestampDataType.java
+END
+StringDataType.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/schema/datatypes/StringDataType.java
+END
+DateDataType.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/schema/datatypes/DateDataType.java
+END
+DataType.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/schema/datatypes/DataType.java
+END
+NumericDataType.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/schema/datatypes/NumericDataType.java
+END

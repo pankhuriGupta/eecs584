@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/drop
+END
+Drop.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/drop/Drop.java
+END
+DropTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/drop/DropTable.java
+END
+DropIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/statement/drop/DropIndex.java
+END

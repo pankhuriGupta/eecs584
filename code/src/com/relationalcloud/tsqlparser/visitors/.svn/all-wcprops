@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/14/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors
+END
+PartitionConditionVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/PartitionConditionVisitor.java
+END
+WhereConditionVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/6/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/WhereConditionVisitor.java
+END
+InsertColumnVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/InsertColumnVisitor.java
+END
+ChangeInExpVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/ChangeInExpVisitor.java
+END
+WhereJoinVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/WhereJoinVisitor.java
+END
+ValuesListVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/ValuesListVisitor.java
+END
+ExpressionIsInRangeVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/ExpressionIsInRangeVisitor.java
+END
+WhereConditionForTableVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/14/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/WhereConditionForTableVisitor.java
+END
+ExtractSelectionPredicateVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/ExtractSelectionPredicateVisitor.java
+END
+WherePartitionVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/WherePartitionVisitor.java
+END
+ExtractInExpressionsVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/ExtractInExpressionsVisitor.java
+END
+OrderByVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/OrderByVisitor.java
+END
+TablesForStatementVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/TablesForStatementVisitor.java
+END
+CreateTableExtractColumnsVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/CreateTableExtractColumnsVisitor.java
+END
+SourceTableVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/SourceTableVisitor.java
+END
+ExtractExpressionLogicVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/ExtractExpressionLogicVisitor.java
+END
+ReplaceJoinConditionTableVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/ReplaceJoinConditionTableVisitor.java
+END
+ExtractColumnsVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/ExtractColumnsVisitor.java
+END
+ReversePartitionConditionVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/ReversePartitionConditionVisitor.java
+END
+LimitVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/trunk/tsqlparser/src/com/relationalcloud/tsqlparser/visitors/LimitVisitor.java
+END
