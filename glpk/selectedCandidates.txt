@@ -1,0 +1,4 @@
+zipcode
+lname
+number_cousins
+major number_siblings
