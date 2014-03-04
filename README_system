@@ -1,0 +1,35 @@
+cd /home/ec2-user/eecs584
+
+# Create all queries
+java -cp bin workload.SimpleWorkloadGenerator -queries
+
+# Create samples for the first time frame
+java -cp bin workload.SimpleWorkloadGenerator -samples 0
+
+# All the above query files will be generated in /home/ec2-user/eecs584/workloadGen folder
+#
+
+# Run the queries in blink db to get the output files
+
+# Parse them using python to generate appropriate input ifles to GLPK
+
+# Run GLPK solver
+
+# Get the output of the glpk solver as the list of qcs that should be generated
+
+# copy the output file in /home/ec2-user/eecs584/workloadGen/candidateSet/frame_1 
+# Run the  command:
+java -cp bin workload.SimpleWorkloadGenerator -samples 1
+
+Repeat the above process
+
+
+
+
+
+sh scriptInit.sh
+sh scriptMid.sh
+sh scriptEnd.sh
+
+# Run the final queries
+time ./bin/blinkdb/ -i "/home/ec2-user/workloadGen/querySet/querySet<dist>/workload.queries
