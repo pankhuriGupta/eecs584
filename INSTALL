@@ -1,0 +1,166 @@
+########################## README ##############################
+#
+#   This project has been done as a part of EECS584, 2013 
+#   Project participants:
+#       - Garrett Hamers (gchamers)
+#       - Pankhuri Gupta (pankhuri)
+#   
+#   Instructor: Professor Barzan Mozafari
+#
+################################################################
+
+# SETTING UP DEPENDENCIES FOR LINUX SYSTEM
+sudo yum install git 
+sudo yum install ant 
+
+# Step1: Download Scala
+wget http://www.scala-lang.org/files/archive/scala-2.9.3.tgz
+tar xvfz scala-2.9.3.tgz
+
+# Step 2: get latest code of blink db and install
+git clone -b alpha-0.1.0 https://github.com/sameeragarwal/blinkdb.git
+
+# Step 3: Get  development package of BlinkDB Hive
+cd blinkdb
+git submodule init
+# it would say somethign like: Submodule 'hive_blinkdb' (https://github.com/sameeragarwal/hive_blinkdb) registered for path 'hive_blinkdb'
+git submodule update
+# This would check the code out. Before this, the hive_blinkdb directory is going to be empty
+cd hive_blinkdb
+ant package
+# builds all Hive jars and put them into build/dist directory.
+###
+
+ This sometimes give follwoing error: BUILD FAILED 
+            /home/ec2-user/blinkdb/hive_blinkdb/build.xml:606: Problem: failed to create task or type symlink
+            Cause: the class org.apache.tools.ant.taskdefs.optional.unix.Symlink was not found.
+            Do not panic, this is a common problem.
+            The commonest cause is a missing JAR.
+
+ Solution : 
+   ant-nodeps.jar file and ant-trax files not present
+   
+   cd /home/ec2-user/resources
+   #Getting the NODEPS jar file :
+   wget repo1.maven.org/maven2/org/apache/ant/ant-nodeps/1.7.1/ant-nodeps-1.7.1.jar
+   #Getting the TRAX jar:
+   wget repo1.maven.org/maven2/org/apache/ant/ant-trax/1.7.1/ant-trax-1.7.1.jar
+
+   # Move all jar files separately
+   mkdir antnodeps anttrax
+   mv ant-nodeps-1.7.1.jar antnodeps
+   mv ant-trax-1.7.1.jar anttrax
+   
+   #Copy ant-1.7.1.jar file from /usr/share/java/
+   mkdir ant-jar
+   sudo cp /usr/share/java/ant-1.7.1.jar .
+
+   # Extract its contents
+   cd antnodeps
+   jar xf ant-nodeps-1.7.1.jar
+
+   cd ../anttrax
+   jar xf ant-trax-1.7.1.jar
+
+   cd ../ant-jar
+   jar xf ant-1.7.1.jar
+
+   # Merge the contents of all jar files
+   # optional, taskdefs and muultiple other files
+
+   # Form a jar file again.
+   jar cf ant-1.7.1.jar images/ META-INFO/ org/
+
+   # Copy back the ant-1.7.1.jar file back into folder /usr/share/java
+   sudo mv ant-1.7.1.jar /usr/share/java/
+
+    # Now run ant package just the usual way. 
+    # This solves the problem
+###
+
+
+# STEP 4: Setting up environment
+cd /home/ec2-user/blinkdb/conf
+cp blinkdb-env.sh.template blinkdb-env.sh
+vi blinkdb-env.sh
+
+export SHARK_MASTER_MEM=1g
+export HIVE_DEV_HOME="/home/ec2-user/blinkdb/hive_blinkdb"
+export HIVE_HOME="$HIVE_DEV_HOME/build/dist"
+
+SPARK_JAVA_OPTS="-Dspark.local.dir=/tmp "
+SPARK_JAVA_OPTS+="-Dspark.kryoserializer.buffer.mb=10 "
+SPARK_JAVA_OPTS+="-verbose:gc -XX:-PrintGCDetails -XX:+PrintGCTimeStamps "
+export SPARK_JAVA_OPTS
+
+export SCALA_VERSION=2.9.3
+export SCALA_HOME="/home/ec2-user/scala-2.9.3"
+export SPARK_HOME="/home/ec2-user/spark-0.8.0-incubating"
+export HADOOP_HOME="/home/ec2-user/hadoop-2.2.0"
+export JAVA_HOME="/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre"      # First confirm this path is correct. Sometimes tha openjdk version might change. Verify that this path has an executable called "java"
+#export JAVA_HOME="/usr/lib/jvm/java-1.6.0-openjdk.x86_64"
+
+# Dowanload Hadoop:
+cd /home/ec2-user
+wget http://apache.claz.org/hadoop/common/stable/hadoop-2.2.0.tar.gz
+tar -zxvf hadoop-2.2.0.tar.gz
+cd hadoop-2.2.0
+
+# Download Hive:
+cd /home/ec2-user
+wget http://apache.claz.org/hive/stable/hive-0.11.0.tar.gz
+tar -zxvf hive-0.11.0.tar.gz
+
+# Download Spark:
+cd /home/ec2-user
+git clone git//github.com/apache/incubator-spark
+#or
+cd /home/ec2-user
+wget spark-project.org/download/spark-0.8.0-incubating.tgz
+tar -zxvf spark-0.8.0-incubating.tgz
+cd spark-0.8.0-incubating
+
+# Modify code to include correct version numbers
+vi /home/ec2-user/blinkdb/project/SharkBuild.scala
+val SPARK_VERSION = "0.8.0-incubating-SNAPSHOT"
+val HADOOP_VERSION = "2.2.0"
+
+# Builds Spark onto the machine
+cd /home/ec2-user/spark-0.8.0-incubating
+sbt/sbt publish-local
+
+# Builds BlinkDB
+cd /home/ec2-user/blinkdb
+sbt/sbt package
+# This requires more than 4GB RAM to be compiled. If sufficient RAM is not present, the java command will simply get killed. 
+# We swtiched to m2.xlarge server for the same reasone
+
+sudo mkdir -p /user/hive/warehouse
+sudo chmod 0777 /user/hive/warehouse
+
+# Runs BlinkDB
+./bin/blinkdb
+# Sometimes, the hostname might be set to ip-x-y-z-w.localdomain. This will get the InetAddress.getLocalHost() to throw UnknownHostException. 
+# HACK : Change the hostname to ip-x-y-z-w using command : sudo hostname ip-172-31-47-167
+# It will run fine then
+
+# Problem for sbt package to find the spark version:
+# In the project/SharkBuild.scala file: do
+#val SPARK_VERSION = "0.8.0-incubating-SNAPSHOT"
+val SPARK_VERSION = "0.8.0-incubating"
+
+
+# Set up the database
+cd blinkdb
+python loaddata.py "/home/ec2-user"
+
+## INstalling the glpk solver
+gzip -d glpk-X.Y.tar.gz
+tar -x < glpk-X.Y.tar
+cd glpk-X.Y
+./configure
+make
+make install
+
+
+### We are still providing the downloaded packages in zip files
